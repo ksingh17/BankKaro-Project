@@ -1,0 +1,79 @@
+.popularCards {
+  background: black;
+  padding-bottom: 10%;
+  &__heading {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 2% 28%;
+  }
+  &__btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 32%;
+  }
+  &__btn {
+    background: black;
+    color: white;
+    border-color: wheat;
+    font-weight: 600;
+    font-size: 12px;
+    :hover {
+      background-color: white;
+      border-color: white;
+      color: black;
+    }
+  }
+  &__cards {
+    width: 450px;
+  }
+  &__cardName {
+    color: white;
+    font-size: 22px;
+  }
+  &__cardbtns {
+    gap: 20px;
+  }
+  &__cardBtn {
+    background: linear-gradient(
+      200.74deg,
+      rgba(214, 211, 194, 0.2) 0%,
+      rgba(92, 92, 92, 0.14) 100%
+    );
+
+    color: #e9d9af;
+    font-size: 16;
+    font-weight: 600;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__cashback {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__cashbackInfo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+.cardInformation {
+  padding: 0 20%;
+  text-align: left;
+}
+.apply {
+  color: #e4c2a2;
+  font-size: 28px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1440px) {
+  .cardInformation {
+    padding: 0 14%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,31 @@
+.features {
+  background: black;
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  &__info {
+    color: #b1b1b1;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  &__option {
+    padding: 16px 56px;
+  }
+  &__img{
+    height: 440px;
+  }
+  &__images{
+    margin-top: -50px;
+  }
+  &__image{
+    margin-top: -60px;
+  }
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

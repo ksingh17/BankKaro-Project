@@ -1,0 +1,102 @@
+.compareCards {
+  position: relative;
+  width: 100%;
+  &__background-video-container {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 316px);
+
+    .background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      object-fit: cover; 
+    }
+
+    .content-overlay {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+.compareCardsInfo {
+  background-color: black;
+}
+.compareCardsText {
+  color: white;
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  padding: 8% 20%;
+}
+.compareCardsBtn {
+  background: linear-gradient(
+    200.74deg,
+    rgba(214, 211, 194, 0.2) 0%,
+    rgba(92, 92, 92, 0.14) 100%
+  );
+  color: rgba(228, 194, 162, 1);
+}
+.compareCardsBtn:hover {
+  background: linear-gradient(
+    200.74deg,
+    rgba(214, 211, 194, 0.2) 0%,
+    rgba(92, 92, 92, 0.14) 100%
+  );
+  color: rgba(228, 194, 162, 1);
+}
+.podium {
+  height: 0;
+}
+.hsbcCard {
+  position: absolute;
+  top: 34%;
+  left: 28%;
+}
+
+.americanExpressCard {
+  position: absolute;
+  top: 33%;
+  left: 42%;
+}
+.sbiCard {
+  position: absolute;
+  top: 34%;
+  left: 60%;
+}
+.heading {
+  height: 0;
+}
+.compareCardText {
+  width: 64%;
+  margin-top: -6%;
+}
+.podiumImg {
+  margin-top: 3%;
+}
+@media screen and (max-width: 1440px) {
+  .hsbcCard {
+    position: absolute;
+    top: 34%;
+    left: 22%;
+  }
+  .americanExpressCard {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+  }
+  .sbiCard {
+    position: absolute;
+    top: 34%;
+    left: 63%;
+  }
+}

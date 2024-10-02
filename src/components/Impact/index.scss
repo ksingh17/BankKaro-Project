@@ -1,0 +1,94 @@
+.impact {
+  position: relative;
+  width: 100%;
+  &__background-video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    .background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      object-fit: cover; 
+    }
+
+    .content-overlay {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+.impact-background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.ratanTata {
+  height: 0;
+}
+.img {
+  padding: 6%;
+}
+
+.details {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  width: 330px;
+  color: rgba(84, 84, 84, 1);
+  font-size: 24px;
+    font-weight: 500;
+}
+
+.impactInfo {
+  position: absolute;
+  top: 40%;
+  left: 6%;
+}
+.impactDetails {
+  position: absolute;
+  left: 35%;
+}
+
+.line1 {
+  color: rgba(26, 26, 26, 1);
+  font-weight: 700;
+  size: 34px;
+}
+.line2{
+    color: rgba(29, 29, 29, 1);
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+
+}
+.impactText{
+    color: rgba(184, 149, 109, 1);
+}
+.name{
+    color: rgba(36, 36, 36, 1);
+    font-size: 90px;
+
+}
+.designation{
+    color: rgba(121, 87, 44, 1);
+    font-size: 40px;
+    margin: 0;
+
+}

@@ -1,0 +1,90 @@
+.heroBanner {
+  display: flex;
+  flex-direction: row;
+  &__leftSection {
+    background: radial-gradient(
+      19.73% 67.9% at 100% 51.92%,
+      rgba(60, 46, 46, 0) 54.75%,
+      #1a1a1a 85.72%,
+      #131313 100%
+    );
+    border-bottom-left-radius: 40px;
+    height: 833px;
+    border-bottom-left-radius: 40px;
+    .content-overlay-text {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      padding: 42% 20%;
+      flex-direction: column;
+    }
+  }
+  &__img {
+    padding-top: 20%;
+    padding-left: 8%;
+  }
+  &__heading {
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    font-size: 62px;
+  }
+  &__background-video-container {
+    border-bottom-right-radius: 40px;
+    width: 100vw;
+    overflow: hidden;
+
+    .background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-height: 100%;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+    }
+
+    .content-overlay {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+    .content-overlay-text {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      padding: 20%;
+    }
+  }
+}
+.button {
+  background: linear-gradient(
+    200.74deg,
+    rgba(214, 211, 194, 0.2) 0%,
+    rgba(92, 92, 92, 0.14) 100%
+  );
+}
+.btn {
+  display: flex;
+  width: 100%;
+}
+.button:hover {
+  background: linear-gradient(
+    200.74deg,
+    rgba(214, 211, 194, 0.2) 0%,
+    rgba(92, 92, 92, 0.14) 100%
+  ) !important;
+}
